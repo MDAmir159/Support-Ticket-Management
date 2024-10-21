@@ -19,8 +19,8 @@ export const createTicket = async (req: Request, res: Response): Promise<void> =
         const newTicket = new Ticket({ userID, date, deviceID, queryText });
         await newTicket.save();
 
-        res.status(200).json({ data: { _id: newTicket._id } });
+        res.status(HTTPStatus.OK).json({ data: { _id: newTicket._id } });
     } catch (error) {
-        res.status(500).json({ message: 'Server error', error });
+        res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json({ message: 'Server error', error });
     }
 };
