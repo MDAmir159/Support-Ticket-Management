@@ -1,3 +1,6 @@
+# Support Ticket Management
+
+Coding assessment for Nerdevs recruitment process.
 ## Run Locally
 
 Clone the project
@@ -74,3 +77,6 @@ For invalid try to register will leave this response with 409(CONFLICT)
     "message": "You have already placed a support ticket. Please wait at least one hour before sending another request."
 }
 ```
+## Tech Stack
+
+**Server:** Node, Express, MongoDB
