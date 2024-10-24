@@ -38,14 +38,14 @@ In developement mode
 
 To transpile and get the production build,
 ```bash
-npm build
+npm run build
 ```
 
 This will automatically create a `dist` folder in the root directory. Opening this, you can see the project with the same structure of the original ts project, with the optmized and transpiled js files.
 
 To run project in production mode.
 ```bash
-npm start
+npm run start
 ```
 
 Your project will run on http://localhost:{port-name}.
