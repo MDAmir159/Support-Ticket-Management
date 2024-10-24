@@ -48,7 +48,7 @@ To run project in production mode.
 npm start
 ```
 
-Your project will run on http://localhost:<port-name>.
+Your project will run on http://localhost:{port-name}.
 ## API Reference
 #### Ticket Registration
 
