@@ -6,7 +6,7 @@ Coding assessment for Nerdevs recruitment process.
 Clone the project
 
 ```bash
-  git clone https://github.com/MDAmir159/Task1.git
+  git clone https://github.com/MDAmir159/Support-Ticket-Management.git
 ```
 
 Go to the project directory
